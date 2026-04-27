@@ -16,7 +16,15 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('uploads/img/'.$information->fav_icon)}}">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&family=Oswald:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" integrity="sha51">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap"/>
     <!-- CSS
     ============================================ -->
 
@@ -28,8 +36,16 @@
     --}}
     @vite('resources/css/tailwind.css')
 
-    <!-- Bundled vendor CSS (bootstrap, font-awesome, flaticon, slick, jquery-ui, sal, magnific, base) -->
-    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/vendor.min.css')}}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/font-awesome.css')}}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/flaticon/flaticon.css')}}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/slick.css')}}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/slick-theme.css')}}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/jquery-ui.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/sal.css')}}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/base.css')}}">
     <link rel="stylesheet" href="{{ asset('frontend/css/style.min.css')}}">
     <link rel="stylesheet" href="{{ asset('frontend/css/header.css')}}">
     <link rel="stylesheet" href="{{ asset('frontend/css/update.css')}}">
