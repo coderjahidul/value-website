@@ -1,18 +1,5 @@
-<script src=" {{ asset('frontend/js/vendor/jquery.js')}}"></script>
-<script src=" {{ asset('frontend/js/vendor/modernizr.min.js')}}"></script>
-<!-- Bootstrap JS -->
-<script src=" {{ asset('frontend/js/vendor/popper.min.js')}}"></script>
-<script src=" {{ asset('frontend/js/vendor/bootstrap.min.js')}}"></script>
-<script src=" {{ asset('frontend/js/vendor/slick.min.js')}}"></script>
-<script src=" {{ asset('frontend/js/vendor/js.cookie.js')}}"></script>
-<script src=" {{ asset('frontend/js/vendor/jquery-ui.min.js')}}"></script>
-<script src=" {{ asset('frontend/js/vendor/jquery.countdown.min.js')}}"></script>
-<script src=" {{ asset('frontend/js/vendor/sal.js')}}"></script>
-<script src=" {{ asset('frontend/js/vendor/jquery.magnific-popup.min.js')}}"></script>
-<script src=" {{ asset('frontend/js/vendor/imagesloaded.pkgd.min.js')}}"></script>
-<script src=" {{ asset('frontend/js/vendor/isotope.pkgd.min.js')}}"></script>
-<script src=" {{ asset('frontend/js/vendor/counterup.js')}}"></script>
-<script src=" {{ asset('frontend/js/vendor/waypoints.min.js')}}"></script>
+<!-- Bundled vendor JS (jquery, modernizr, popper/bootstrap, slick, jquery-ui, countdown, magnific, isotope, counterup, waypoints, sal, etc.) -->
+<script src=" {{ asset('frontend/js/vendor/vendor.min.js')}}"></script>
 
 <!-- Main JS -->
 <script src=" {{ asset('frontend/js/main.js')}}"></script>
