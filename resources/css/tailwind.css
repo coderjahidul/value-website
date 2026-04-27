@@ -1,0 +1,13 @@
+/**
+ * Tailwind CSS v4 entry point
+ *
+ * Load order: this file is loaded FIRST in HTML <head>, then Bootstrap.
+ * So Bootstrap wins on conflicting class names (CSS cascade).
+ */
+
+@import "tailwindcss";
+
+/* Tell Tailwind where to find class names (relative to this file) */
+@source "../views/**/*.blade.php";
+@source "../js/**/*.js";
+@source "../js/**/*.vue";
